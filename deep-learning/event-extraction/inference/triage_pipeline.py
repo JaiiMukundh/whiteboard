@@ -1,7 +1,11 @@
 import json
 import sys
+import os
 from pathlib import Path
 import uuid
+
+# Disable PyTorch Dynamo compiler to prevent CppCompileError warnings on machines missing python3-dev
+os.environ["TORCHDYNAMO_DISABLE"] = "1"
 
 import torch
 from outlines import from_transformers, json_schema
