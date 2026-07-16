@@ -1,0 +1,10 @@
+{
+  "base_model": {
+    "general_perplexity": 6.544302057240016,
+    "supply_chain_perplexity": 26.616347957534696
+  },
+  "lora_model": {
+    "general_perplexity": 6.601065738497205,
+    "supply_chain_perplexity": 29.628471415692562
+  }
+}

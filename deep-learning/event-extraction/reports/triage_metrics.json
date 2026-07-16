@@ -1,0 +1,44 @@
+{
+  "train": {
+    "metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "confusion_matrix": {
+      "true_positive": 83,
+      "false_positive": 0,
+      "true_negative": 54,
+      "false_negative": 0
+    }
+  },
+  "val": {
+    "metrics": {
+      "accuracy": 0.9655172413793104,
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1": 0.9787234042553191
+    },
+    "confusion_matrix": {
+      "true_positive": 23,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 1
+    }
+  },
+  "test": {
+    "metrics": {
+      "accuracy": 0.9,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923
+    },
+    "confusion_matrix": {
+      "true_positive": 18,
+      "false_positive": 3,
+      "true_negative": 9,
+      "false_negative": 0
+    }
+  }
+}
