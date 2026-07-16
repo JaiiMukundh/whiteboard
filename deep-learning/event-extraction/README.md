@@ -67,6 +67,11 @@ Triage_Pipeline/
 │   ├── SmolLM2-1.7B-Instruct_lora/  # Comparison model (gitignored: .safetensors)
 │   └── TinyLlama-1.1B-Chat-v1.0_lora/  # Comparison model (gitignored: .safetensors)
 │
+├── inference/
+│   ├── extract_baseline_test.py   # Baseline extraction testing
+│   ├── run_batch_inference.py     # Pipeline batch inference runner
+│   └── triage_pipeline.py         # Single-sample inference pipeline
+│
 ├── evaluation/
 │   ├── compare_extraction.py      # F1 / Precision / Recall / Schema Validity for extractions
 │   ├── compare_validation.py      # JSON schema validation check on all outputs
